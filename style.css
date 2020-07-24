@@ -1,0 +1,88 @@
+
+.col-3{
+    margin: 0 auto;
+    text-align: center;
+     
+}
+
+
+
+
+#list{
+    color: rgb(16, 16, 17);
+   
+}
+
+.text{
+    flex-wrap: start;
+    background-color: tomato;
+    border: solid rgb(245, 237, 237);
+    width: 200px;
+    text-align: start;
+    justify-content: end;
+    
+}
+.edi{
+    background-color: rgb(39, 235, 235);
+    justify-content: flex-end;
+    
+    
+}    
+.btn {
+    background-color:rgb(133, 134, 130);
+    justify-content: flex-end;
+    
+
+}
+body{
+    font-family: 'open sans',sans-serif;
+    background-image: -webkit-linear-gradient();
+    
+
+}
+#container{
+
+    width: 1200px;
+    height: 580px;
+    background-image:url(bgImg.jpg);
+    margin:20px auto;
+    padding-top: 20px;
+}
+#to-do{
+    width: 320px;
+    height: 520px;
+    background-color: #9759fc;  
+    margin: 0 auto;
+    text-align: center;   
+    padding-top: 15px; 
+    top: 25px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+
+
+}
+
+#delal{
+    float:right;
+    background-color: red;
+    
+}
+#addal{
+    float:right;
+    background-color: brown;
+    
+}
+@media only screen and (max-width:425px){
+    #to-do{
+    float:left;
+    
+    }
+}
+@media only screen and (max-width:425px){
+    #container{
+        width: 425px;
+        height: 425px;
+        
+    }
+}
